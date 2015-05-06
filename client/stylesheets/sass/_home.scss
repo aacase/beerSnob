@@ -1,1 +1,11 @@
+@import "_variables";
+
 /* Styles for Home Template go here */
+.template-home {
+  .parallax-container {
+    height: 300px;
+  }
+  .smallStuff{
+    font-size: 20px;
+  }
+}
