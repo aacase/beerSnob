@@ -1,6 +1,6 @@
 # BeerSnob - Material Design Version
 
-A\
+
 * [Included Packages](#included-packages)
 * [Installation](#installation)
 * [File Structure](#file-structure)
