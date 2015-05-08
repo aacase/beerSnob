@@ -1,4 +1,5 @@
 Items = new Mongo.Collection('items');
+Location = new Mongo.Collection('location');
 
 Items.helpers({
 
@@ -21,6 +22,10 @@ Items.attachSchema(new SimpleSchema({
       type: 'textarea'
     }
   },
+  locations:{
+    type: [Location],
+    optional: true,
+  },
   rating: {
     type: Number,
     optional: true,
@@ -33,3 +38,9 @@ Items.attachSchema(new SimpleSchema({
     }
   }
 }));
+
+Location = new SimpleSchema({
+    store: {
+        type: String
+    }
+});
