@@ -5,6 +5,7 @@
 
 meteor-platform
 accounts-password
+dburles:google-maps
 alanning:roles
 zimme:iron-router-active
 cmather:handlebars-server@0.2.0
